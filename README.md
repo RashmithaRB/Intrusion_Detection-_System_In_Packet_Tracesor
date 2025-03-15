@@ -209,7 +209,7 @@ do show ip ips all
 ![syslog_entries](syslog_entries_in_server.png)
 
 ## Conclusion
-You have successfully configured an Intrusion Detection System (IDS) using **Packet Tracer**. The setup ensures **secure communication** within the allowed network and **blocks unauthorized access** from external networks using IPS.
+Successfully configured an Intrusion Detection System (IDS) using **Packet Tracer**. The setup ensures **secure communication** within the allowed network and **blocks unauthorized access** from external networks using IPS.
 
 
 
