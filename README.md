@@ -187,19 +187,30 @@ exit
 do show ip ips all
 ```
 
+### After configuration of rules
+
+![rules_configures](ips_rules_configured.png)
+
 ## Expected Results
 - When you **ping PC0 from PC1**, you **get a reply**.
-  ```
-ping 192.168.4.4  # You will get a reply
-```
+  
+-ping 192.168.4.4  # You will get a reply
+
+![ping_results_pc0](pinging_results_pc0.png)
+
 - When you **ping from outside network (PC1) to inside network (PC0)**, you **do not get a reply**.
-  ```
-ping 192.168.1.4  # Request timed out or no reply
-```
+
+-ping 192.168.1.4  # Request timed out or no reply
+
+![ping_results_pc1](pinging_results_pc1.png)
+
+### Syslog entries
+
+![syslog_entries](syslog_entries_in_server.png)
 
 ## Conclusion
 You have successfully configured an Intrusion Detection System (IDS) using **Packet Tracer**. The setup ensures **secure communication** within the allowed network and **blocks unauthorized access** from external networks using IPS.
 
----
-### **End of Document**
+
+
 
