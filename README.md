@@ -22,6 +22,8 @@
 
 Connect all components as shown in the provided diagram, using the "automatically choose connection type" option.
 
+![network_design](Intrusion_detection_system_design.png)
+
 ---
 ## Step 1: Physical Setup of Routers
 1. Click on **Router 0**.
